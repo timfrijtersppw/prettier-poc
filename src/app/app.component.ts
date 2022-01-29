@@ -10,6 +10,5 @@ export class AppComponent {
   test: Array<string> = [''];
   test2: string[] = [''];
 
-  constructor() {
-  }
+  constructor() {}
 }
