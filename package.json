@@ -9,6 +9,9 @@
     "test": "ng test",
     "lint:prettier": "cross-env prettier --check \"**/*.{ts,js,md,html,scss}\"",
     "format:prettier": "cross-env prettier --write \"**/*.{ts,js,md,html,scss}\"",
+    "lint:eslint": "eslint \"**/*.ts\"",
+    "format:eslint": "eslint \"**/*.ts\" --fix",
+    "lint:styles": "stylelint \"src/app/**/*.scss\"",
   },
   "private": true,
   "dependencies": {
