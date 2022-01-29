@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "node build-concurrently.js",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test --watch=false",
     "lint:prettier": "cross-env prettier --check \"**/*.{ts,js,md,html,scss}\"",
     "format:prettier": "cross-env prettier --write \"**/*.{ts,js,md,html,scss}\"",
     "lint:eslint": "eslint \"**/*.ts\"",
