@@ -20,7 +20,7 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
-        "prettier/prettier": "error",
+        "prettier/prettier": "off",
         "@angular-eslint/directive-selector": [
           "error",
           {
@@ -36,7 +36,8 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "@typescript-eslint/array-type": "error"
       }
     },
     {
