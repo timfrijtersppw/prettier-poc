@@ -1,6 +1,12 @@
 # PrettierPoc
+This project is a POC to showcase the differences between eslint / prettier / stylelint
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+* Prettier is an opinionated code formatter.
+
+* eslint is an extensible static analysis tool that checks TypeScript code for readability, 
+maintainability, and functionality errors
+
+In other words, use Prettier for formatting and linters for catching bugs!
 
 ## Development server
 
