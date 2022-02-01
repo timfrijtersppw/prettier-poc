@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prettier-poc';
-  test: Array<string> = [''];
+  test: string[] = [''];
   test2: string[] = [''];
 
   constructor() {}
